@@ -55,8 +55,8 @@ const averageRevenue = function(drivers){
     return drivers.slice().reduce(function(agg,el){
       
       agg = agg+ el.revenue;
-      age = agg/drivers.length;
-      return agg;
+
+      return agg/5;
     },0);
 }
 
