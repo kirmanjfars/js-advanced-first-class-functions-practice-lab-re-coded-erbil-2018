@@ -56,8 +56,8 @@ const averageRevenue = function(drivers){
       
       agg = agg+ el.revenue;
 
-      return agg/5;
-    },0);
+      return agg;
+    },0)/5;
 }
 
 
